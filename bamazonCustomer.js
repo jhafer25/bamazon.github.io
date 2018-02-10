@@ -14,7 +14,7 @@ const displayAll = () => {
             head: ['Item ID', 'Product Name', 'Department Name', 'Price', 'Quantity'],
             colWidths: [10, 30, 18, 10, 14]
         });
-        for (i = 0; i < response.length; i++) {
+        for (var i = 0; i < response.length; i++) {
             productTable.push(
                 [response[i].item_id, response[i].product_name , response[i].department_name, response[i].price , response[i].stock_quantity]
             );
