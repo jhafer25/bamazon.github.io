@@ -4,7 +4,7 @@ const Table = require('cli-table');
 const connection = mysql.createConnection({
     host: "localhost",
     user: "root", //Your Username
-    password: '', //Your Password
+    password: 'Harvey4520!!', //Your Password
     database: "bamazon"
 });
 const displayAll = () => {
